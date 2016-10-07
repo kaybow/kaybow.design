@@ -5,10 +5,15 @@ body {
 
 a {
 	text-decoration: none;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h3 {
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .logo, .socialmedia {
-	width: 4.5em;
+	width: 3em;
 }
 
 .logo2 {
@@ -20,13 +25,30 @@ a {
 	width: 100%;
 }
 
-@media only screen and (min-width: 25em) {
+nav li {
+	display: block;
+}
 
-.nav li {
+@media only screen and (min-width: 35em) {
+
+nav li {
 	display: inline-block;
 }
 
-.nav {
+nav {
+	text-align: center;
+}
+}
+
+@media only screen and (min-width: 60em) {
+
+nav li {
+	display: inline-block;
+}
+
+nav {
 	text-align: right;
 }
 }
+
+
