@@ -1,15 +1,11 @@
 body {
 	margin-right: 3.5em;
 	margin-left: 3.5em;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 a {
 	text-decoration: none;
-	font-family: 'Open Sans Condensed', sans-serif;
-}
-
-h3 {
-	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .logo, .socialmedia {
@@ -20,7 +16,7 @@ h3 {
 	width: 20em;
 }
 
-.banner {
+.banner, .portrait {
 	display: inline-block;
 	width: 100%;
 }
