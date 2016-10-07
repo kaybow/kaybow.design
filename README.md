@@ -2,7 +2,7 @@
 
 #### [kaybow.design] www.kaybow.design
 
-My journey into the graphic design industry has been a series of evolution:
+My journey into the graphic design industry has been an evolutionary experience:
 A childhood joy of colouring books turned into a love of paint and mixed media in my adolescence.
 I studied fine arts but was intrigued by the wonderful, intricate world of graphic design.
 Refusing to retire my beloved brushes and paints for a Macbook and Adobe software,
