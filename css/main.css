@@ -8,12 +8,16 @@ a {
 	text-decoration: none;
 }
 
-.logo, .socialmedia {
-	width: 3em;
+.logo {
+	width: 15em;
 }
 
-.logo2 {
-	width: 20em;
+.circle {
+	width: 5em;
+}
+
+.circle2 {
+	width: 3em;
 }
 
 .banner {
@@ -38,6 +42,10 @@ nav li {
 nav {
 	text-align: center;
 }
+
+.logo {
+	width: 20em;
+}
 }
 
 @media only screen and (min-width: 60em) {
@@ -48,6 +56,10 @@ nav li {
 
 nav {
 	text-align: right;
+}
+
+.logo {
+	width: 25em;
 }
 }
 
