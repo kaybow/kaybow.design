@@ -7,6 +7,14 @@ a {
 	text-decoration: none;
 }
 
+.logo, .socialmedia {
+	width: 4.5em;
+}
+
+.logo2 {
+	width: 20em;
+}
+
 .banner {
 	display: inline-block;
 	width: 100%;
