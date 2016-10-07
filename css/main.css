@@ -16,7 +16,7 @@ a {
 	width: 20em;
 }
 
-.banner, .portrait {
+.banner {
 	display: inline-block;
 	width: 100%;
 }
