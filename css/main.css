@@ -12,7 +12,7 @@ a {
 }
 
 .circle {
-	width: 5em;
+	width: 6em;
 }
 
 .circle2 {
@@ -28,7 +28,15 @@ a {
 	width: 100%;
 }
 
-nav li {
+.about1 {
+	background-color: lightgrey;
+}
+
+.about2 {
+	background-color: darkgrey;
+}
+
+li {
 	display: block;
 }
 
