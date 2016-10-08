@@ -1,6 +1,5 @@
 body {
-	margin-right: 3.5em;
-	margin-left: 3.5em;
+	margin: 0;
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
@@ -35,6 +34,11 @@ nav li {
 
 @media only screen and (min-width: 35em) {
 
+body {
+	margin-right: 3.5em;
+	margin-left: 3.5em;
+}
+
 nav li {
 	display: inline-block;
 }
@@ -49,6 +53,11 @@ nav {
 }
 
 @media only screen and (min-width: 60em) {
+
+	body {
+	margin-right: 3.5em;
+	margin-left: 3.5em;
+}
 
 nav li {
 	display: inline-block;
