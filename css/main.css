@@ -36,6 +36,10 @@ a {
 	background-color: darkgrey;
 }
 
+svg {
+  stroke: none;
+}
+
 li {
 	display: block;
 }
