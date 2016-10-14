@@ -5,6 +5,23 @@ body {
 
 a {
 	text-decoration: none;
+	color: black;
+}
+
+img {
+	display: inline-block;
+	width: 100%;
+}
+
+.social a:hover {
+  background-color: #a7a0cb;
+}
+
+nav a:hover {
+  background-color: #b2d3cf;
+  border-color: #b2d3cf;
+  color: #fff;
+  padding: .3em;
 }
 
 .logo {
@@ -17,11 +34,6 @@ a {
 
 .icon {
 	width: 3em;
-}
-
-img {
-	display: inline-block;
-	width: 100%;
 }
 
 .banner-img {
@@ -38,6 +50,17 @@ img {
 .about {
 	background-color: lightgrey;
 	border: 5px solid #fff;
+}
+
+.diamond {
+	position: relative;
+}
+
+.title {
+	position: absolute;
+	bottom: 50%;
+	left: 50%;
+	color: #fff;
 }
 
 li {
