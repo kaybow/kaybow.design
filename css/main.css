@@ -24,6 +24,13 @@ img {
 	width: 100%;
 }
 
+.banner-img {
+	background-image: url("../images/banner.jpg");
+	min-height: 500px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
 .feature-img {
 	width: 100%;
 }
