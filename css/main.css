@@ -19,7 +19,7 @@ a {
 	width: 3em;
 }
 
-.banner {
+img {
 	display: inline-block;
 	width: 100%;
 }
@@ -31,10 +31,6 @@ a {
 .about {
 	background-color: lightgrey;
 	border: 5px solid #fff;
-}
-
-svg {
-  stroke: none;
 }
 
 li {
