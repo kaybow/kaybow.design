@@ -1,16 +1,16 @@
 body {
-	margin: 0;
-	font-family: 'Open Sans Condensed', sans-serif;
+  margin: 0;
+  font-family: "Open Sans Condensed", sans-serif;
 }
 
 a {
-	text-decoration: none;
-	color: black;
+  text-decoration: none;
+  color: black;
 }
 
 img {
-	display: inline-block;
-	width: 100%;
+  display: inline-block;
+  width: 100%;
 }
 
 .social a:hover {
@@ -25,87 +25,85 @@ nav a:hover {
 }
 
 .logo {
-	width: 15em;
+  width: 15em;
 }
 
 .circle {
-	width: 6em;
+  width: 6em;
 }
 
 .icon {
-	width: 3em;
+  width: 3em;
 }
 
 .banner-img {
-	background-image: url("../images/banner.jpg");
-	min-height: 500px;
-	background-repeat: no-repeat;
-	background-position: center center;
+  background-image: url("../images/banner.jpg");
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .feature-img {
-	width: 100%;
+  width: 100%;
 }
 
 .about {
-	background-color: lightgrey;
-	border: 5px solid #fff;
+  background-color: lightgrey;
+  border: 5px solid #fff;
 }
 
 .diamond {
-	position: relative;
+  position: relative;
 }
 
 .title {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
 }
 
 li {
-	display: block;
+  display: block;
 }
 
 @media only screen and (min-width: 35em) {
 
-body {
-	margin-right: 3.5em;
-	margin-left: 3.5em;
-}
+  body {
+    margin-right: 3.5em;
+    margin-left: 3.5em;
+  }
 
-nav li {
-	display: inline-block;
-}
+  nav li {
+    display: inline-block;
+  }
 
-nav {
-	text-align: center;
-}
+  nav {
+    text-align: center;
+  }
 
-.logo {
-	width: 20em;
-}
+  .logo {
+    width: 20em;
+  }
 }
 
 @media only screen and (min-width: 60em) {
 
-	body {
-	margin-right: 3.5em;
-	margin-left: 3.5em;
-}
+  body {
+    margin-right: 3.5em;
+    margin-left: 3.5em;
+  }
 
-nav li {
-	display: inline-block;
-}
+  nav li {
+    display: inline-block;
+  }
 
-nav {
-	text-align: right;
-}
+  nav {
+    text-align: right;
+  }
 
-.logo {
-	width: 25em;
+  .logo {
+    width: 25em;
+  }
 }
-}
-
-
