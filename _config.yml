@@ -1,0 +1,4 @@
+markdown: redcarpet
+baseurl: /kaybow
+exclude: ['README.md']
+permalink: pretty
