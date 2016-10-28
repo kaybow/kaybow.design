@@ -1,0 +1,6 @@
+Sitemap: https://kaybow.design/sitemap.xml
+
+User-Agent: *
+Disallow: /img
+Disallow: /video
+Disallow: /fonts
