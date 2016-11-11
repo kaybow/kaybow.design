@@ -1,4 +1,3 @@
-markdown: redcarpet
 baseurl: /kaybow.design
 exclude: ['README.md']
 permalink: pretty
