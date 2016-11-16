@@ -8,6 +8,14 @@ a {
   color: #9bbdaa;
 }
 
+h1, h4, .email {
+  color: #5faea9;
+}
+
+h2, .copyright {
+  color: #9ebe8f;
+}
+
 img {
   display: inline-block;
   width: 100%;
@@ -17,7 +25,7 @@ img {
   background-color: #a7a0cb;
 }
 
-nav a:hover {
+nav a, .top a:hover {
   background-color: #b2d3cf;
   border-color: #b2d3cf;
   color: #fff;
