@@ -5,7 +5,7 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #9bbdaa;
 }
 
 img {
@@ -33,7 +33,7 @@ nav a:hover {
 }
 
 .icon {
-  width: 3em;
+  width: 2.8em;
 }
 
 .banner-img {
