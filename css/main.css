@@ -5,15 +5,18 @@ body {
 
 a {
   text-decoration: none;
-  color: #9bbdaa;
 }
 
-h1, h4, .email {
+a, .email {
   color: #5faea9;
 }
 
-h2, .copyright {
+h1, h2, .copyright {
   color: #9ebe8f;
+}
+
+h3, h4 {
+  color: #9bbdaa;
 }
 
 img {
@@ -25,7 +28,14 @@ img {
   background-color: #a7a0cb;
 }
 
-nav a, .top a:hover {
+.top a:hover {
+  background-color: #b2d3cf;
+  border-color: #b2d3cf;
+  color: #fff;
+  padding: .3em;
+}
+
+nav a:hover {
   background-color: #b2d3cf;
   border-color: #b2d3cf;
   color: #fff;
