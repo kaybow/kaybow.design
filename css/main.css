@@ -66,8 +66,17 @@ nav a:hover {
 }
 
 .about {
-  background-color: lightgrey;
+  background-color: #9bbdaa;
   border: 5px solid #fff;
+}
+
+.about2 {
+  background-color: #9ebe8f;
+  border: 5px solid #fff;
+}
+
+.about p, .about2 p, .about h3, .about2 h3 {
+  color: #fff;
 }
 
 .diamond {
