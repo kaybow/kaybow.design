@@ -93,6 +93,7 @@ nav a:hover {
 
 .diamond:hover .title-container{
   display:block;
+  transition: all 0.5s;
 }
 
 .hidden {
