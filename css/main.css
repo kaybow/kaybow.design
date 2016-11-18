@@ -28,18 +28,23 @@ img {
   background-color: #b2d3cf;
 }
 
-.top a:hover {
-  background-color: #b2d3cf;
-  border-color: #b2d3cf;
-  color: #fff;
-  padding: .3em;
+nav a, .top a {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
 }
-
-nav a:hover {
-  background-color: #b2d3cf;
-  border-color: #b2d3cf;
-  color: #fff;
-  padding: .3em;
+nav a:after, .top a:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+a:hover:after {
+    width: 100%;
+    background: #f69588;
 }
 
 .logo {
