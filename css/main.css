@@ -60,10 +60,12 @@ a:hover:after {
 }
 
 .banner-img {
-  background-image: url("../images/banner.jpg");
-  min-height: 500px;
+  background-image: url("../images/billboard.jpg");
+  min-height: 650px;
   background-repeat: no-repeat;
   background-position: center center;
+  width: 100%;
+  display: block;
 }
 
 .feature-img {
