@@ -11,7 +11,11 @@ a, .email {
   color: #5faea9;
 }
 
-h1, h2, .copyright {
+h1 {
+  color: #fff;
+}
+
+h2, .copyright {
   color: #9ebe8f;
 }
 
@@ -47,12 +51,19 @@ a:hover:after {
     background: #f69588;
 }
 
+.header {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .logo {
   width: 10em;
 }
 
 .circle {
-  width: 6em;
+  width: 3em;
 }
 
 .icon {
@@ -60,12 +71,13 @@ a:hover:after {
 }
 
 .banner-img {
-  background-image: url("../images/billboard.jpg");
-  min-height: 670px;
+  background-image: url("../images/banner.jpg");
+  min-height: 700px;
   background-repeat: no-repeat;
   background-position: center center;
   width: 100%;
   display: block;
+  position: relative;
 }
 
 .feature-img {
@@ -84,6 +96,8 @@ a:hover:after {
 
 .about p, .about2 p, .about h3, .about2 h3 {
   color: #fff;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .diamond {
@@ -117,6 +131,13 @@ a:hover:after {
 
 li {
   display: block;
+}
+
+@media only screen and (min-width: 15em) {
+
+  .logo {
+    width: 15em;
+  }
 }
 
 @media only screen and (min-width: 35em) {
