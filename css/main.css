@@ -11,11 +11,15 @@ a, .email {
   color: #5faea9;
 }
 
-h1 {
+.index {
   color: #fff;
 }
 
-h2, .copyright {
+h1, h2 {
+  color: #5faea9;
+}
+
+.copyright {
   color: #9ebe8f;
 }
 
@@ -62,6 +66,10 @@ a:hover:after {
   width: 10em;
 }
 
+.bow {
+  width: 7em;
+}
+
 .circle {
   width: 3em;
 }
@@ -90,7 +98,7 @@ a:hover:after {
 }
 
 .about2 {
-  background-color: #9ebe8f;
+  background-color: #bccd8c;
   border: 5px solid #fff;
 }
 
