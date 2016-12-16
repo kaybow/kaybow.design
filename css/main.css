@@ -84,8 +84,12 @@ a:hover:after {
   width: 6em;
 }
 
-.circle {
-  width: 3em;
+.rectangle {
+  width: 2em;
+}
+
+.me {
+  margin-bottom: 0;
 }
 
 .icon {
